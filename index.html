@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Paytm</title>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens :{
+                sm : '480px',
+                md : '768px',
+                lg : '976px',
+                xl : '1280px'
+            },
+            extend: {
+              colors: {
+                myblue: '#3944f7',
+                myred: '#DE4839',
+                mygrey: '#CAD5E2',
+                test:'#35BDD0'
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body class="bg-gray-800">
+    <!-- Navbar -->
+    <nav class="relative mx-auto bg-white p-5">
+        <div class="flex justify-around items-center">
+
+            <div class="w-40 cursor-pointer ml-8">
+                <img src="https://assetscdn1.paytm.com/images/catalog/category/5165/paytm_logo.png" alt="" srcset="">
+            </div>
+            <div class="hidden md:flex">
+                <a href="" class="mx-10" target="_blank">Paytm For Consumer</a>
+                <a href="" class="mx-10" target="_blank">Paytm For Business</a>
+                <a href="" class="mx-10" target="_blank">Company</a>
+                <a href="" class="mx-10" target="_blank">Investor Relations</a>
+                <a href="" class="mx-10" target="_blank">Career</a>
+            </div>
+            <div class="mr-10 px-1 pl-4 cursor-pointer py-0.5 flex bg-sky-400 text-white rounded-3xl hover:bg-blue-900 content-center">
+                <a href="" class="flex items-center content-center">Sign In</a>
+                <div class="w-10 h-10">
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- kyc information -->
+    <section class="bg-test p-3 text-center">
+        <h4>No Wallet KYC Required 😊 to pay using UPI on Paytm. Learn more.</h4>
+    </section>
+
+    <!-- India's Most Loved Payment App -->
+    <section class="body-font bg-white pt-20 pb-20">
+        <div class="container mx-auto flex md:flex-row flex-col items-center">
+            <!-- flex-col justify-self-center justify-center p-20" -->
+            <div class=" p-15 pt-15 pl-6 flex-col justify-between  items-center">
+                <!-- <div class="w-20"> -->
+                    <img class="w-20 mb-20" src="https://assetscdn1.paytm.com/images/catalog/view/310944/1654517453942.png" alt="">
+                <!-- </div> -->
+                <!-- <div> -->
+                    <h2 class="font-bold text-center md:text-left text-3xl md:text-6xl mb-4">India's Most-loved Payments App</h2>
+                <!-- </div> -->
+                <div class="text-center md:w-4/6 md:text-left mb-10">
+                    <h4 class="font-semibold text-lg">Recharge & pay bills, book flights & movie tickets, open a savings account, invest in stocks & mutual funds, and do a lot more.</h4>
+                </div>
+                <div class="text-center md:text-left mb-5">
+                    <a class="bg-black text-white px-10 py-3 rounded-3xl" href="">Download Paytm App</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 w-5/6">
+                
+                    <img class="object-cover object-center rounded"src="https://assetscdn1.paytm.com/images/catalog/view_item/850762/1656568118664.png" alt="">
+                
+            </div>
+            
+        </div>
+    </section>
+
+</body>
+</html>
